@@ -54,4 +54,4 @@ for line in bitmap.splitlines():
             # i % len(message) se "vrti u krug": 0, 1, ..., len-1, 0, 1, ...
             # pa se poruka ponavlja dok red ne završi
             print(message[i % len(message)], end='')
-    print()  # Print a newline.
+    #print()  # Print a newline.
